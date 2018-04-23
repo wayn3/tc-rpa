@@ -28,11 +28,11 @@ def tc_rpa(a, r_mesh, q):
     print("{:6.3f}".format(1.0/j*len(q_mesh)/len(r_mesh)))
     
 if __name__ == "__main__":
-    q = np.genfromtxt('q_100.dat')
+    q = np.genfromtxt('q_10.dat')
 
     a_1 = np.array([[0.0,0.5,0.5],
                     [0.5,0.0,0.5],
-                    [0.5,0.5,0.0]])*9.707
+                    [0.5,0.5,0.0]])
 
     a_2 = np.array([[ 2.075181,-2.934749, 3.594319],
                     [ 4.150362, 2.934749, 0.000000],
